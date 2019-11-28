@@ -1,4 +1,4 @@
-# tuples
+# Tuples
 
 tuple1 = ("yellow", 45, True, 0.56, [31, "pizza"], "rice", 56, 56)
 
@@ -14,11 +14,11 @@ print(tuple1.count(0.56))  # returns how many times is the element on the tuple 
 
 print(len(tuple1))         # returns the length of the tuple len()
 
-tuple2 = ("hello",)        # unitary tuple
+tuple2 = ("hello", )        # unitary tuple
 
-tuple3 = 23, "yes", 45     # empaquetado de tupla, escribirlas raw, another way to write a tuple
+tuple3 = 23, "yes", 45      # empaquetado de tupla, escribirlas raw, another way to write a tuple
 
-colour, number, boolean, floatt, listt, string, number2, number3 = tuple1   # desempaquetado de tupla, it assign a
+colour, number, boolean, floatt, listt, string, number2, number3 = tuple1  # desempaquetado de tupla, it assign a
 # variable to each element o a tuple
 
 print(colour)
